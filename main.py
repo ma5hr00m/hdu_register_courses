@@ -1,12 +1,35 @@
 # -*- coding: utf-8 -*-
-import requests
 import time
 import random
 from datetime import datetime
 import signal
 import sys
 import os
-from config import headers, data, url
+
+try:
+    import requests
+except ImportError:
+    print(
+    """
+    ❌ ImportError:
+        Missing 'requests' library.
+        Install it with:
+            pip install -r requirements.txt
+        Or install it separately:
+            pip install requests
+    """)
+    exit(1)
+
+try:
+    from config import headers, data, url
+except ImportError:
+    print(
+    """
+    ❌ ImportError:
+        Missing config.py from the current directory.
+        Please refer to the format of config.py.example to write your configuration file.
+    """)
+    exit(1)
 
 class Logger:
     """ 日志类 """
