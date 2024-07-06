@@ -1,0 +1,30 @@
+headers = {
+    'Host': 'newjw.hdu.edu.cn',
+    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0',
+    'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+    'Origin': 'http://newjw.hdu.edu.cn',
+    'Referer': 'http://newjw.hdu.edu.cn/jwglxt/xsxk/zzxkyzb_cxZzxkYzbIndex.html',
+    'Cookie': '',
+}
+
+data = {
+    'jxb_ids': '',
+    'kch_id': '',
+    'kcmc': '',
+    'rwlx': '',
+    'rlkz': '',
+    'rlzlkz': '',
+    'sxbj': '',
+    'xxkbj': '',
+    'qz': '',
+    'cxbj': '',
+    'xkkz_id': '',
+    'njdm_id': '',
+    'zyh_id': '',
+    'kklxdm': '',
+    'xklc': '',
+    'xkxnm': '',
+    'xkxqm': ''
+}
+
+url = 'http://newjw.hdu.edu.cn/jwglxt/xsxk/zzxkyzbjk_xkBcZyZzxkYzb.html'

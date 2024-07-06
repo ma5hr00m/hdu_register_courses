@@ -1,0 +1,12 @@
+# virtual env
+venv/
+
+# py
+__pycache__/
+
+# config
+config.py
+
+# logs
+logs/
+logs.log
